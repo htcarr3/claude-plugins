@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "html-docs",
+  "displayName": "HTML Docs — consistent HTML output",
+  "version": "0.1.0",
+  "description": "Emit polished, self-contained HTML documents (reports, plans, explainers, comparisons, dashboards, editors) on one consistent Anthropic-style design system, so you decide what to say and never how to build the page.",
+  "author": {
+    "name": "Thomas Carr"
+  },
+  "keywords": ["html", "artifacts", "documents", "reports", "design-system", "output", "templates"],
+  "license": "MIT"
+}

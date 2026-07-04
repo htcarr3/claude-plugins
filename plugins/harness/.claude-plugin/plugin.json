@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "harness",
+  "displayName": "Harness — Claude config self-improvement",
+  "version": "0.1.0",
+  "description": "Keep a project's Claude Code setup current by construction. Workflow skills that research the latest docs and best practices, audit this project's config against them, and apply the gaps — grounding in freshly-fetched truth instead of baked-in knowledge that goes stale.",
+  "author": {
+    "name": "Thomas Carr"
+  },
+  "keywords": ["meta", "self-improvement", "config", "audit", "research", "best-practices", "harness", "workflow"],
+  "license": "MIT"
+}
