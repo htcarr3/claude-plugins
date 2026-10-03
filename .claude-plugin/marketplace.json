@@ -4,27 +4,6 @@
   "owner": {
     "name": "Thomas Carr"
   },
-  "description": "Personal Claude Code plugins — workflow toolkits pulled in per project.",
-  "plugins": [
-    {
-      "name": "unknowns",
-      "source": "./plugins/unknowns",
-      "description": "Field-guide techniques for surfacing unknowns before, during, and after implementation, as invokable skills that emit self-contained HTML artifacts."
-    },
-    {
-      "name": "harness",
-      "source": "./plugins/harness",
-      "description": "The self-improvement layer — research current Claude Code / model best practice from live docs, audit this project's config against it, and apply the gaps. Grounds in fresh docs instead of baked-in knowledge that goes stale."
-    },
-    {
-      "name": "review-flow",
-      "source": "./plugins/review-flow",
-      "description": "Branch review & session helpers: tour a branch commit-by-commit, vet a cold-session review against the real code, and replay messy history into clean commits."
-    },
-    {
-      "name": "html-docs",
-      "source": "./plugins/html-docs",
-      "description": "Emit polished, self-contained HTML documents on one consistent Anthropic-style design system — reports, plans, explainers, comparisons, dashboards, editors — so you decide what to say, not how to build the page."
-    }
-  ]
+  "description": "Personal Claude Code plugins.",
+  "plugins": []
 }

@@ -21,7 +21,7 @@ plugins/<name>/
   .claude-plugin/plugin.json        # manifest: name, displayName, version, keywords
   skills/<skill>/SKILL.md           # one dir per skill; the dir name IS the /command
   references/*.md                   # supporting docs a skill reads on demand
-  assets/                           # optional (e.g. html-docs/template.html)
+  assets/                           # optional
   README.md
 ```
 
@@ -38,10 +38,9 @@ plugins/<name>/
 
 - **Authoring is procedural, not declarative.** Don't bake doc snapshots or schema
   tables that go stale into a skill. Encode the *method* of fetching current facts
-  and leave the facts on the web. `harness` is the reference implementation of this.
+  and leave the facts on the web.
 - **Verify skill / plugin authoring against live docs** (`code.claude.com/docs`),
-  not memory or an old meta-skill — frontmatter fields and behaviour drift. The
-  `harness:research` skill exists for exactly this.
+  not memory — frontmatter fields and behaviour drift.
 - **`skills/<name>/SKILL.md` layout only** — not the legacy `commands/`. The
   directory name is the slash command; frontmatter `name:` is a display label.
 - **Invocation mode is a deliberate choice.** Mark a skill
@@ -52,11 +51,9 @@ plugins/<name>/
   stable release; otherwise iterate freely.
 - **Don't migrate Anthropic built-ins.** Skills Anthropic ships (skill-creator,
   agent-creator, …) stay built-in; this marketplace is for personal toolkits.
-- **Generated HTML artifacts** land in a gitignored `./artifacts/` (see `html-docs`),
-  never committed.
+- **Generated HTML artifacts** land in a gitignored `./artifacts/`, never committed.
 
 ## Commits
 
-Conventional Commits, scoped to the plugin: `feat(html-docs): …`,
-`docs(harness): …`, `fix(review-flow): …`. Keep commits atomic and the marketplace
+Conventional Commits, scoped to the plugin: `feat(dhh): …`, `docs(dhh): …`. Keep commits atomic and the marketplace
 in a validating state.

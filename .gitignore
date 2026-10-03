@@ -16,7 +16,7 @@
 # Ignore Jetbrains Config
 .idea/*
 
-# Ignore the per-worktree database marker (written into each fr8/Conductor workspace)
+# Ignore the per-worktree database marker (written into each Conductor workspace)
 /.worktree-workspace
 
 # Ignore Claude Code personal configs
